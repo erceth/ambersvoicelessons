@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+  font-family: 'music-for-empty-apartments';
+  src:  url('/assets/fonts/music-for-empty-apartments.woff2'),
+        url('/assets/fonts/music-for-empty-apartments.woff')
+}
+
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}

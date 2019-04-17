@@ -20,4 +20,11 @@
       cursor: pointer;
     }
   }
+
+  @media all and (max-width: 600px) {
+    .price-listing {
+      padding: 1em;
+      font-size: 1.5em;
+    }
+  }
 }

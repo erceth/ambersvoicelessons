@@ -1,7 +1,14 @@
 .availability {
- padding: 4em;
- background: #E3F0F6;
- border: 2px solid #0076C0;
- margin: 2em 0;
- text-align: center;
+  padding: 4em;
+  background: #E3F0F6;
+  border: 2px solid #0076C0;
+  margin: 2em 0;
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .availability {
+    padding: 1em;
+    font-size: 1.5em;
+  }
 }

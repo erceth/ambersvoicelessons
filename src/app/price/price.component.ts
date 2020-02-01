@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title }     from '@angular/platform-browser';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-price',
@@ -8,8 +9,9 @@ import { Title }     from '@angular/platform-browser';
 })
 export class PriceComponent implements OnInit {
 
-  constructor(private titleService: Title ) {
-    this.titleService.setTitle(`Amber's Voice Lessons - Price - Draper, Lehi, Eagle Mountain`)
+  constructor(private titleService: Title, private meta: Meta ) {
+    this.titleService.setTitle(`Amber's Voice Lessons - Price | Draper, Lehi, Eagle Mountain, Utah`)
+    this.meta.updateTag({ name: 'description', content: `Cost for Amber's Voice Lessons.`});
   }
 
   ngOnInit() {

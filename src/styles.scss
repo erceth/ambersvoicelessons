@@ -4,8 +4,10 @@
 
 @font-face {
   font-family: 'music-for-empty-apartments';
-  src:  url('/assets/fonts/music-for-empty-apartments.woff2'),
-        url('/assets/fonts/music-for-empty-apartments.woff')
+  font-display: auto;
+  src: local('sans-serif'),
+    url('/assets/fonts/music-for-empty-apartments.woff2'),
+    url('/assets/fonts/music-for-empty-apartments.woff')
 }
 
 

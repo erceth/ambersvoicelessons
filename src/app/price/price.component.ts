@@ -10,7 +10,7 @@ import { Meta } from '@angular/platform-browser';
 export class PriceComponent implements OnInit {
 
   constructor(private titleService: Title, private meta: Meta ) {
-    this.titleService.setTitle(`Amber's Voice Lessons - Price | Draper, Lehi, Eagle Mountain, Utah`)
+    this.titleService.setTitle(`Amber's Voice Lessons - Price | Bluffdale, Utah`)
     this.meta.updateTag({ name: 'description', content: `Cost for Amber's Voice Lessons.`});
   }
 

@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://ambersvoicelessons.com/</loc>
-    <lastmod>2019-04-23</lastmod>
+    <lastmod>2022-10-1</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://ambersvoicelessons.com/about/</loc>
-    <lastmod>2019-04-23</lastmod>
+    <lastmod>2022-10-1</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://ambersvoicelessons.com/price/</loc>
-    <lastmod>2019-04-23</lastmod>
+    <lastmod>2022-10-1</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://ambersvoicelessons.com/contact/</loc>
-    <lastmod>2019-04-23</lastmod>
+    <lastmod>2022-10-1</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

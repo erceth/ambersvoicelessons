@@ -28,5 +28,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## ERE
 ### Docker
-`docker build -t erceth/ambersvoicelessons .`
-`docker run -d -it -p 80:80/tcp --name ambersvoicelessons erceth/ambersvoicelessons:latest`
+`docker image build -t erceth/ambersvoicelessons:v0.0.1 .`
+`docker push erceth/ambersvoicelessons:v0.0.1`
